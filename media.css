@@ -1,0 +1,65 @@
+@media (max-width: 65em) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 54em) {
+  .guess {
+    width: 20rem;
+    padding: 1.5rem;
+  }
+}
+@media (max-width: 42em) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .number {
+    width: 10rem;
+    padding: 2rem;
+    font-size: 3rem;
+  }
+  .message {
+    font-size: 1.75rem;
+  }
+  .check,
+  .again {
+    padding: 1.25rem 2.5rem;
+    font-size: 1.5rem;
+  }
+  .label-score {
+    font-size: 1.5rem;
+  }
+  .label-highscore {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 29em) {
+  h1 {
+    font-size: 2rem;
+  }
+  .between {
+    font-size: 1rem;
+  }
+  .number {
+    width: 7rem;
+    padding: 2rem;
+    font-size: 3rem;
+  }
+  .guess {
+    width: 15rem;
+    padding: 2rem;
+    font-size: 2.5rem;
+  }
+  .message {
+    transform: translate(30px, 25px);
+    line-height: 2.5rem;
+  }
+  .label-highscore {
+    line-height: 2.5rem;
+  }
+  .highscore {
+    padding-left: 3.5rem;
+  }
+}
